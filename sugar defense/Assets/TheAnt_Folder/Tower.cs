@@ -16,7 +16,7 @@ public class Tower : MonoBehaviour
 
     //what part of the tower should spin?
     public Transform partToRotate;
-
+    public float rotationSpeed = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -73,7 +73,8 @@ public class Tower : MonoBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         //turn the complicated quaternion equation for rotation into nice and simple eulerAngles
         //eulerAngles is when you rotate something around an axis
-        Vector3 rotation = lookRotation.eulerAngles;
+        //Lerp makes it so it turns smoothly over a time
+        Vector3 rotation = Quaternion.Lerp(partToRotate.rotation, lookRotation, Time.deltaTime * rotationSpeed).eulerAngles;
         //makes it so it only rotates around the Y-axis
         partToRotate.rotation = Quaternion.Euler (0f, rotation.y, 0f);
 
