@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/LucasStuff/Casus.unity
+    guid: 7e939f8580f7ad0468dc908af5a2d271
+  - enabled: 1
+    path: Assets/LucasStuff/Credits.unity
+    guid: 0d7325e30ff5f5f44b9c033c8001a27f
   m_configObjects: {}

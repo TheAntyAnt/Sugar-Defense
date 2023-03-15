@@ -11,7 +11,7 @@ public class SugerMainMenu : MonoBehaviour
 public string firstLevel;
 public float targetTime;
 public string secondlevel;
-
+    public string Credits;
 // Start is called before the first frame update
 void Start()
 {
@@ -24,15 +24,21 @@ void Update()
 
 }
 
-public void StartGame()
-{
+ public void StartGame()
+ {
 
     SceneManager.LoadScene(firstLevel);
 
-}
+ }
 
+    public void Creits()
+    {
 
-public void QuitGame()
+        SceneManager.LoadScene(Credits);
+
+    }
+
+    public void QuitGame()
 {
     Application.Quit();
     Debug.Log("Quittign");
