@@ -12,7 +12,7 @@ public class Tower : MonoBehaviour
     public float range = 15f;
 
     //create a tag that you can assign to enemies
-    public string enemyTag = "Enemy";
+    public string enemyTag = "enemy";
 
     //what part of the tower should spin?
     public Transform partToRotate;
