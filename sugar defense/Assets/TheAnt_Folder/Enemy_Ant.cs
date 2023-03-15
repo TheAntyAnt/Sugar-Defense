@@ -13,7 +13,7 @@ public class Enemy_Ant : MonoBehaviour
     [SerializeField] private int health;
     [SerializeField] private int damage;
     [SerializeField] private int speed;
-    private int armor;
+    
     // Start is called before the first frame update
     void Start()
     {
