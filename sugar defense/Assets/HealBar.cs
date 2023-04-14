@@ -18,6 +18,6 @@ public class HealBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Fill.localScale = new Vector3(Heal * 0.01, 0, 0);
+        Fill.localScale = new Vector3(Heal* 0.01f, 0, 0);
     }
 }

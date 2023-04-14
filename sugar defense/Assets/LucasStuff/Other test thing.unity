@@ -174,6 +174,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dcbf963eb0d8d447a1489c6b541a925, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Heal: 0
+  Fool: 
+  Fill: {fileID: 0}
 --- !u!114 &7382824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,7 +311,7 @@ GameObject:
   - component: {fileID: 806204795}
   - component: {fileID: 806204794}
   m_Layer: 5
-  m_Name: r
+  m_Name: Backgound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
