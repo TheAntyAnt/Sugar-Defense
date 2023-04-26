@@ -176,7 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Heal: 0
   Fool: 
-  Fill: {fileID: 0}
+  Fill: {fileID: 7382822}
 --- !u!114 &7382824
 MonoBehaviour:
   m_ObjectHideFlags: 0

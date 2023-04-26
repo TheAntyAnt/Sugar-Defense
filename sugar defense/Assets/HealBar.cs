@@ -12,12 +12,22 @@ public class HealBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Heal = 0.1f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Fill.localScale = new Vector3(Heal* 0.01f, 0, 0);
+        if (Input.GetKeyDown(KeyCode.A))
+
+        {
+            Heal += +1;
+        }
+     
+        Fill.localScale = new Vector3(Heal* 0.01f, 0.9f, 0.876f);
+
+     
     }
+
+
 }
