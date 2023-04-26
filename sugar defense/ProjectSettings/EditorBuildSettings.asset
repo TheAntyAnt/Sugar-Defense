@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LucasStuff/Credits.unity
     guid: 0d7325e30ff5f5f44b9c033c8001a27f
+  - enabled: 1
+    path: Assets/TheAnt_Folder/Ant testing area.unity
+    guid: 909a95340440b1148bff67dccc774ff5
   m_configObjects: {}
