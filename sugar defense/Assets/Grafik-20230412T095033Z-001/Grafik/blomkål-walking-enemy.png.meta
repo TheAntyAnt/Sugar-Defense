@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -36,13 +36,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,9 +51,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -68,7 +68,7 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -103,18 +103,238 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "blomk\xE5l-walking-enemy_0"
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1279
+        width: 486
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddf6c9cce6ac3343b02d52aa87c7b60
+      internalID: -1931556752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "blomk\xE5l-walking-enemy_1"
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1279
+        width: 486
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c78f6896b13c6148814a0deab67bdfa
+      internalID: 2125361271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "blomk\xE5l-walking-enemy_2"
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1279
+        width: 515
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d73047a3a1776c43aad23be8e4e016a
+      internalID: -487472714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "blomk\xE5l-walking-enemy_3"
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 1279
+        width: 521
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b9457d9a5abed4bad9a5efe1be3e97
+      internalID: -300898731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "blomk\xE5l-walking-enemy_4"
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 697
+        width: 492
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845cd2859e38d534ca8aa8ca7881ab9f
+      internalID: -1792862742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "blomk\xE5l-walking-enemy_5"
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 697
+        width: 468
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cadc9e3ea1e5fe46986599e4054066d
+      internalID: -2001370876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "blomk\xE5l-walking-enemy_6"
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 697
+        width: 492
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2904bb4e5f783f74a87dafac3033aba8
+      internalID: 2014844358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "blomk\xE5l-walking-enemy_7"
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 697
+        width: 521
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f26773e51659624caf52733fc38a13a
+      internalID: -1400389874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "blomk\xE5l-walking-enemy_8"
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 115
+        width: 515
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d85874b7264c2429bd96610d6f44e0
+      internalID: -1658281372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "blomk\xE5l-walking-enemy_9"
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 115
+        width: 486
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c60bfca8df31f4d999ca9b3165228b
+      internalID: -668818412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "blomk\xE5l-walking-enemy_0": -1931556752
+      "blomk\xE5l-walking-enemy_1": 2125361271
+      "blomk\xE5l-walking-enemy_2": -487472714
+      "blomk\xE5l-walking-enemy_3": -300898731
+      "blomk\xE5l-walking-enemy_4": -1792862742
+      "blomk\xE5l-walking-enemy_5": -2001370876
+      "blomk\xE5l-walking-enemy_6": 2014844358
+      "blomk\xE5l-walking-enemy_7": -1400389874
+      "blomk\xE5l-walking-enemy_8": -1658281372
+      "blomk\xE5l-walking-enemy_9": -668818412
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
