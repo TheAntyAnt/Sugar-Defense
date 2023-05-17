@@ -4,25 +4,22 @@ using UnityEngine;
 
 public class Shooting : MonoBehaviour
 {
-    public GameObject Bullet;
+    //variables that can be connected to gameobjects in the scene
+    [SerializeField] private Rigidbody BulletRB;
+    [SerializeField] private float BulletSpeed;
 
-    // Start is called before the first frame update
-    void Start()
+    //decides the speed of the bullet
+    public void Init(Vector3 dir)
     {
-        
+        BulletRB.velocity = dir * BulletSpeed;
+        //BulletRB.transform.rotation = ;
     }
 
-    // Update is called once per frame
-    void Update()
+    //what happens when bullet collides with something
+    void OnCollisionEnter(Collision col)
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            shoot();
-        }
-    }
+        //col.transform.GetComponent<put the name of the enemy script here>().death method goes here()
 
-    public void shoot()
-    {
-        
+        Destroy(gameObject);
     }
 }
